@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ar.deptospinner.Municipio">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/Nombre"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtNomMunicipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="@string/MunicipioDepartamento" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pais"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/cmbxPais"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/Departamento"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="@string/NombreDepartamento" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/Agregar"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

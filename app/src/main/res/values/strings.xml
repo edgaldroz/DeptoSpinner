@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DeptoSpinner</string>
+    <string name="btnDepartamentos">Departamentos</string>
+    <string name="btnMunicipios">Municipios</string>
+    <string name="Nombre">Nombre: </string>
+    <string name="Pais">Pais: </string>
+    <string name="Descripcion">Descripcion: </string>
+    <string name="Cabecera">Cabera</string>
+    <string name="Departamento">Departamento: </string>
+    <string name="Agregar">Agregar</string>
+    <string name="NombreDepartamento">Ingrese Departamento</string>
+    <string name="CabeceraDepartamento">Ingrese Cabecera</string>
+    <string name="MunicipioDepartamento">Ingrese Municipio</string>
+</resources>
